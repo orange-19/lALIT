@@ -104,14 +104,22 @@ def label_headings_by_font_size(features, texts, num_levels=3):
     return np.array(labels)
 
 def train_lalit_model(X, y, input_dim, model_path="lalit_heading_model.pth", epochs=15):
-    num_classes = len(set(y))
+    # Get unique classes and remap labels to continuous range starting from 0
+    unique_classes = sorted(set(y))
+    num_classes = len(unique_classes)
+    
+    # Create mapping from original labels to continuous range [0, num_classes-1]
+    class_mapping = {old_class: new_class for new_class, old_class in enumerate(unique_classes)}
+    y_remapped = np.array([class_mapping[label] for label in y])
+    
     print(f"Training model with {input_dim} input features and {num_classes} classes")
+    print(f"Class mapping: {class_mapping}")
     
     model = LalitHeadingModel(input_dim=input_dim, num_classes=num_classes)
     optimizer = optim.Adam(model.parameters(), lr=0.01)
     criterion = nn.CrossEntropyLoss()
     X_tensor = torch.tensor(X, dtype=torch.float32)
-    y_tensor = torch.tensor(y, dtype=torch.long)
+    y_tensor = torch.tensor(y_remapped, dtype=torch.long)
     
     for epoch in range(epochs):
         model.train()
@@ -126,7 +134,9 @@ def train_lalit_model(X, y, input_dim, model_path="lalit_heading_model.pth", epo
     model_data = {
         'state_dict': model.state_dict(),
         'input_dim': input_dim,
-        'num_classes': num_classes
+        'num_classes': num_classes,
+        'class_mapping': class_mapping,
+        'unique_classes': unique_classes
     }
     torch.save(model_data, model_path)
     print(f"Model saved to {model_path} ({os.path.getsize(model_path)/1024/1024:.2f} MB)")
@@ -161,11 +171,16 @@ def predict_headings(pdf_path, model_path, num_levels=3):
             saved_input_dim = model_data['input_dim']
             saved_num_classes = model_data['num_classes']
             state_dict = model_data['state_dict']
+            # Get class mapping if available
+            class_mapping = model_data.get('class_mapping', {})
+            unique_classes = model_data.get('unique_classes', list(range(saved_num_classes)))
         else:
             # Old format - try to infer from state dict
             state_dict = model_data
             saved_input_dim = input_dim
             saved_num_classes = num_levels + 1
+            class_mapping = {}
+            unique_classes = list(range(saved_num_classes))
         
         model = LalitHeadingModel(input_dim=saved_input_dim, num_classes=saved_num_classes)
         model.load_state_dict(state_dict)
@@ -174,11 +189,19 @@ def predict_headings(pdf_path, model_path, num_levels=3):
         with torch.no_grad():
             X_tensor = torch.tensor(features, dtype=torch.float32)
             pred = torch.argmax(model(X_tensor), axis=1).numpy()
+        
+        # Map predictions back to original class labels if class mapping exists
+        if class_mapping:
+            # Create reverse mapping
+            reverse_mapping = {v: k for k, v in class_mapping.items()}
+            pred_original = [reverse_mapping.get(p, p) for p in pred]
+        else:
+            pred_original = pred
             
         # Map labels to H1/H2/H3/Normal
         level_map = {0: "H1", 1: "H2", 2: "H3"}
         outline = []
-        for idx, p in enumerate(pred):
+        for idx, p in enumerate(pred_original):
             if p in level_map:
                 outline.append({
                     "level": level_map[p],
