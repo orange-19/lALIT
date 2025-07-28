@@ -1,0 +1,416 @@
+{
+  "file01.pdf": {
+    "file_path": "C:\\Users\\RAMNARREN GOWTHAM\\OneDrive\\Desktop\\LalitProject\\file01.pdf",
+    "headings_count": 28,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Application form for grant of LTC advance",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 1,
+        "top_position": 107.43,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "1. Name of the Government Servant",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 2,
+        "top_position": 135.0,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Designation",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 4,
+        "top_position": 153.06,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Date of entering the Central Government",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 6,
+        "top_position": 171.17,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Service",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 7,
+        "top_position": 188.75,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "4. PAY + SI + NPA",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 8,
+        "top_position": 206.86,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Whether permanent or temporary",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 10,
+        "top_position": 224.92,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "6. Home Town as recorded in the Service Book",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 11,
+        "top_position": 243.1,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Whether wife / husband is employed and if",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 13,
+        "top_position": 255.28,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "so whether entitled to LTC",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 14,
+        "top_position": 272.86,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Whether the concession is to be availed for",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 16,
+        "top_position": 290.99,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "visiting home town and if so block for which",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 17,
+        "top_position": 308.57,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "LTC is to be availed.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 18,
+        "top_position": 326.2,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "(a) If the concession is to visit anywhere in",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 20,
+        "top_position": 344.26,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "India, the place to be visited.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 21,
+        "top_position": 361.9,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "(b) Block for which to be availed.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 22,
+        "top_position": 379.48,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Single rail fare/bus fare from the",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 24,
+        "top_position": 397.6,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "headquarters to home town/place of visit by",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 25,
+        "top_position": 415.18,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "shortest route.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 26,
+        "top_position": 432.76,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Persons in respect of whom LTC is proposed to be availed.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 28,
+        "top_position": 450.94,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "S.No Name Age Relationship",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 29,
+        "top_position": 466.07,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Amount of advance required. Rs.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 37,
+        "top_position": 563.14,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "I declare that the particulars furnished above are true and correct to the best of my knowledge. I",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 38,
+        "top_position": 598.84,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "undertake to produce the tickets for the outward journey within ten days of receipt of the advance.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 39,
+        "top_position": 610.55,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "In the event of cancellation of the journey or if I fail to produce the tickets within ten days of receipt of",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 40,
+        "top_position": 634.07,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "advance, I undertake to refund the entire advance in one lump sum.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 41,
+        "top_position": 645.83,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Date",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 42,
+        "top_position": 680.99,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Signature of Government Servant.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 43,
+        "top_position": 692.75,
+        "page": 1
+      }
+    ]
+  },
+  "file03.pdf": {
+    "file_path": "C:\\Users\\RAMNARREN GOWTHAM\\OneDrive\\Desktop\\LalitProject\\file03.pdf",
+    "headings_count": 10,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Ontario’s Libraries",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 1,
+        "top_position": 78.61,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Working Together",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 2,
+        "top_position": 101.16,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "RRRRFFFFPPPP:::: RRRReeeeqqqquuuueeeesssstttt ffffoooorrrr PPPPrrrrooooppppoooossssaaaallll",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 3,
+        "top_position": 169.62,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "To Present a Proposal for Developing",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 4,
+        "top_position": 251.18,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "the Business Plan for the Ontario",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 5,
+        "top_position": 278.78,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Digital Library",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 6,
+        "top_position": 306.38,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "March 21, 2003",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 7,
+        "top_position": 344.79,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "The Ontario Digital Library will make Ontario a better place to study, work and live by ensuring that",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 8,
+        "top_position": 698.18,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "all Ontario citizens have access to the knowledge and learning supports needed to be life-long",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 9,
+        "top_position": 712.1,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "learners and effective contributors towards Ontario’s prosperity.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 10,
+        "top_position": 726.03,
+        "page": 1
+      }
+    ]
+  },
+  "pdf1.pdf": {
+    "file_path": "C:\\Users\\RAMNARREN GOWTHAM\\OneDrive\\Desktop\\LalitProject\\pdf1.pdf",
+    "headings_count": 6,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Overview",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 1,
+        "top_position": 192.31,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Foundation Level Extensions",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 2,
+        "top_position": 247.53,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Version 1.0",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 3,
+        "top_position": 383.77,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "International Software Testing Qualifications Board",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 4,
+        "top_position": 467.72,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Copyright Notice",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 5,
+        "top_position": 653.4,
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "This document may be copied in its entirety, or extracts made, if the source is acknowledged.",
+        "font_size": 12.0,
+        "font_name": "",
+        "line_number": 6,
+        "top_position": 664.93,
+        "page": 1
+      }
+    ]
+  }
+}
